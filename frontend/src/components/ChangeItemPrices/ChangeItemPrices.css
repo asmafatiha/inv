@@ -1,0 +1,68 @@
+body {
+  background-color: azure;
+}
+
+.change-item-prices-form-container {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95vh; 
+  }
+
+  .changeItemPrice-form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: solid 2px black;
+  }
+  
+  .change-item-prices h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .changeItemPriceform-group {
+    margin-bottom: 15px;
+  }
+  
+  .changeItemPriceform-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .changeItemPriceform-group input,
+  .changeItemPriceform-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Added border for better field visibility */
+  }
+
+  .changeItemPriceform-group input:focus,
+  .changeItemPriceform-group select:focus {
+    border-color: #007bff; /* Changed border color on focus */
+    outline: none; /* Removed default focus outline */
+  }
+  
+  .changeItemPricesSubmit button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .changeItemPricesSubmit button:hover {
+    background-color: #0056b3;
+  }
+  #previousCostPrice, #previousSalesPrice {
+    background-color: rgb(230, 227, 227);
+  }
+  

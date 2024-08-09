@@ -1,0 +1,73 @@
+body {
+  background-color: azure;
+}
+
+.additem-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 95vh; /* Full height of the viewport */
+}
+
+.additem-form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: solid 2px black;
+}
+
+.additem-form h2 {
+  text-align: center;
+  color: #333;
+}
+
+.item-identification, .item-prices
+{
+  display: flex;
+  gap: 20px;
+}
+
+.item-identification label,
+.item-prices label {
+  flex: 1;
+  padding: 10px;
+}
+
+.item-identification label input,
+.item-prices label input {
+  display: block;
+}
+
+.item-submit {
+  padding: 10px 0; /* Espacement pour le bouton */
+  text-align: center; /* Centrage du bouton */
+}
+
+.item-submit button {
+  width: 100%;
+  padding: 10px;
+  border: double white;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.item-submit button:hover {
+  background-color: #0056b3;
+  color: black;
+}
+
+.item-input {
+  height: 25px;
+  border-radius: 5px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+}
+
+.item-input:focus {
+  border-color: #007bff;
+  outline: none;
+}

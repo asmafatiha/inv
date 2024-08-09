@@ -1,0 +1,88 @@
+/* addUser.module.css */
+body {
+  background-color: azure;
+}
+
+.adduser-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 95vh; 
+  
+
+.adduser-form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: solid 2px black;
+}
+}
+
+.adduser-form h2 {
+  text-align: center;
+  color: #333;
+}
+
+.cityPhoneWahatsapp, .loginPassAdminRights, .user-identification {
+  display: flex;
+  gap: 20px; 
+}
+
+.user-identification label, .cityPhoneWahatsapp label, .loginPassAdminRights label {
+  flex: 1;
+  padding: 10px;
+}
+
+.user-identification label input, .cityPhoneWahatsapp label input, .loginPassAdminRights label input {
+display: block;
+}
+
+.user-email, .user-address {
+  padding: 10px;
+}
+
+.user-email label,.user-address label {  
+  flex: 1;
+}
+
+.user-email label input, .user-address label input {
+  display: block;
+  width: 90%;
+
+} 
+
+.user-submit {
+  padding: 10px 0; /* Espacement pour le bouton */
+  text-align: center; /* Centrage du bouton */
+  align-items: center;
+}
+
+.user-submit button {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.user-submit button:hover {
+  background-color: #0056b3;
+  color: black;
+}
+
+.user-input { 
+  height: 20px;
+  border-radius: 5px;
+  padding: 0 10px; /* Added padding for better text alignment */
+  border: 1px solid #ccc; /* Added border for better field visibility */
+  display: block;
+}
+
+.user-input:focus {
+  border-color: #007bff; /* Changed border color on focus */
+  outline: none; /* Removed default focus outline */
+}
